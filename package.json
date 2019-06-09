@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start-guess": "npm run build && http-server ./dist/guess-angular-demo -p 4200"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "codelyzer": "~5.0.0",
     "guess-parser": "~0.3.0",
     "guess-webpack": "~0.3.0",
+    "http-server": "~0.11.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
