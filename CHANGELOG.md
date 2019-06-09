@@ -1,5 +1,21 @@
 # Changelog
 
+<a name="v0.0.3"></a>
+
+## 0.0.3 (2019-06-09)
+
+#### Bug Fixes
+
+* NA
+
+#### Features
+
+* Implemented predictive prefetching lazy routes using [guess.js](https://guess-js.github.io/)  library [[PR 2](https://github.com/kumaran-is/guess-angular-demo/pull/2)]
+
+#### Breaking Changes
+
+* NA
+
 <a name="v0.0.2"></a>
 
 ## 0.0.2 (2019-06-09)
